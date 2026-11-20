@@ -1,0 +1,26 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local database and generated files
+data/*.db
+data/**/*.db
+data/uploads/*
+data/previews/*
+reports/*
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
